@@ -1,0 +1,21 @@
+product_id,product_name,category,unit_cost,unit_price
+P001,Emulsion Paint 20L,Paints & Finishes,2400,3200
+P002,Enamel Paint 4L,Paints & Finishes,650,900
+P003,Primer 10L,Paints & Finishes,900,1250
+P004,Wood Polish 1L,Paints & Finishes,220,340
+P005,Ceramic Floor Tile (sqft),Tiles & Sanitaryware,32,48
+P006,Vitrified Tile (sqft),Tiles & Sanitaryware,55,82
+P007,Wash Basin,Tiles & Sanitaryware,1200,1850
+P008,Wall-mounted Commode,Tiles & Sanitaryware,4200,6200
+P009,PVC Pipe 4in (10ft),Plumbing,420,600
+P010,CPVC Pipe 1in (10ft),Plumbing,260,380
+P011,Bathroom Fitting Set,Plumbing,1800,2600
+P012,Water Tank 1000L,Plumbing,3800,5200
+P013,Copper Wire 90m Coil,Electricals,2100,2900
+P014,MCB Switch,Electricals,180,260
+P015,LED Panel Light,Electricals,350,520
+P016,Ceiling Fan,Electricals,1400,2100
+P017,Cement Bag 50kg,Hardware & Tools,340,420
+P018,Steel Rod 12mm (per kg),Hardware & Tools,62,78
+P019,Hinges Set (10pc),Hardware & Tools,150,230
+P020,Power Drill Machine,Hardware & Tools,2200,3100
