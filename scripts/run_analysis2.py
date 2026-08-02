@@ -6,9 +6,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 
-DATA = "/home/claude/project2/data"
-OUT = "/home/claude/project2/outputs"
-DB = "/home/claude/project2/buildright.db"
+DATA = "/home/Rupal/project2/data"
+OUT = "/home/Rupal/project2/outputs"
+DB = "/home/Rupal/project2/buildright.db"
 
 conn = sqlite3.connect(DB)
 pd.read_csv(f"{DATA}/products.csv").to_sql("products", conn, if_exists="replace", index=False)

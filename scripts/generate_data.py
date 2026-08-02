@@ -118,10 +118,10 @@ for prod in products_df["product_id"]:
 inventory_df = pd.DataFrame(inv_rows)
 
 # ---------- Save ----------
-products_df.to_csv("/home/claude/project2/data/products.csv", index=False)
-customers_df.to_csv("/home/claude/project2/data/customers.csv", index=False)
-sales_df.to_csv("/home/claude/project2/data/sales_raw.csv", index=False)
-inventory_df.to_csv("/home/claude/project2/data/inventory.csv", index=False)
+products_df.to_csv("/home/Rupal/project2/data/products.csv", index=False)
+customers_df.to_csv("/home/Rupal/project2/data/customers.csv", index=False)
+sales_df.to_csv("/home/Rupal/project2/data/sales_raw.csv", index=False)
+inventory_df.to_csv("/home/Rupal/project2/data/inventory.csv", index=False)
 
 print("Products:", len(products_df))
 print("Customers:", len(customers_df))
