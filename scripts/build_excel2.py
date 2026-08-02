@@ -4,8 +4,6 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.chart import BarChart, LineChart, Reference
 from openpyxl.utils import get_column_letter
 
-OUT = "/home/claude/project2/outputs"
-DATA = "/home/claude/project2/data"
 
 sales_sample = pd.read_csv(f"{DATA}/sales_for_excel.csv").head(100)
 category_summary = pd.read_csv(f"{OUT}/revenue_by_category.csv")
